@@ -33,11 +33,7 @@ namespace Short.API.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                this.repo.Dispose();
-            }
-
+            if (disposing) { this.repo.Dispose(); }
             base.Dispose(disposing);
         }
 
