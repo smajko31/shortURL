@@ -2,7 +2,7 @@
 
 namespace Short.Data.Models
 {
-    class User
+    public class User
     {
         [Required]
         [Display(Name = "Username")]
